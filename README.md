@@ -3,17 +3,17 @@
 This dataset contains reported sightings of zebra mussels (Dreissena polymorpha) across North America. It is not remote sensing or model output; rather, it is a compilation of human observations from many different sources, and each record has a location, a reported date, and a record type, along with other features including comments and other variables that had patchy completion. The data comes from the USGS Nonindigenous Aquatic Species database (https://nas.er.usgs.gov), and I accessed it as a CSV file. Since the sightings come from people and not from a standardized survey, it is important to be careful about what the data communicates.
 
 One thing that stood out right away is how different the record sources are (Figure 1). Database entries make up the largest share at around 4,900 records, followed by personal communication at about 3,000 and journal articles at about 1,200. All the other types combined are only a small portion. This matters because a big part of the dataset depends on people reporting what they saw, so places with more people paying attention could look like they have more mussels.
-The second thing I noticed is that sightings are clustered in space and time (Figure 2). Most of the older reports (blue and green) are around the Great Lakes, the Mississippi River, and the eastern half of the country. The newer reports (orange and red) start showing up farther Ist and south in places like Oregon, Oklahoma, and Colorado, which suggests that the mussels have been spreading outward from where they first shoId up.
+The second thing I noticed is that sightings are clustered in space and time (Figure 2). Most of the older reports (blue and green) are around the Great Lakes, the Mississippi River, and the eastern half of the country. The newer reports (orange and red) start showing up farther west and south in places like Oregon, Oklahoma, and Colorado, which suggests that the mussels have been spreading outward from where they first showed up.
 
 ![image](/Users/shartface/Documents/GitHub/ev228_individual-analysis/specimen-recordtype.png)  
 *Figure 1. Number of reported zebra mussel sightings per record type. Database records and personal communication make up most of the dataset.*
 
 
 ![image](/Users/shartface/Documents/GitHub/ev228_individual-analysis/colormap.png)  
-*Figure 2. Map of reported zebra mussel sightings colored by reported year (1986–2025). Early sightings are concentrated around the Great Lakes and Mississippi River while more recent sightings appear farther Ist and south.*
+*Figure 2. Map of reported zebra mussel sightings colored by reported year (1986–2025). Early sightings are concentrated around the Great Lakes and Mississippi River while more recent sightings appear farther west and south.*
 
 ## New Analysis
-One assumption worth stating is that the number of reported sightings is a good stand in for how many mussels are actually present. I don’t think this is fully true, because reporting effort has probably changed over the years and betIen places.
+One assumption worth stating is that the number of reported sightings is a good stand in for how many mussels are actually present. I don’t think this is fully true, because reporting effort has probably changed over the years and between places.
 
 ### Results
 
@@ -23,7 +23,7 @@ Putting it together: The early spike matches the map, where the oldest points ar
 
 ![image](/Users/shartface/Documents/GitHub/ev228_individual-analysis/specimen-monthcount.png)  
 
-*Figure 3. Number of reported zebra mussel sightings per month across all years. Reports peak in August and are loIst in winter.*
+*Figure 3. Number of reported zebra mussel sightings per month across all years. Reports peak in August and are lowest in winter.*
 
 ![image](/Users/shartface/Documents/GitHub/ev228_individual-analysis/specimen-yearcount.png)
 
